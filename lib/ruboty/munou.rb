@@ -1,4 +1,5 @@
 require "ruboty"
 require "ruboty/munou/responder"
+require "ruboty/munou/dictionary"
 require "ruboty/handlers/munou"
 require "ruboty/munou/version"

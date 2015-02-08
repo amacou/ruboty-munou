@@ -1,8 +1,11 @@
 module Munou
   module Responders
     class Base
-      def initialize(dictionary)
+      attr_reader :dictionary
+
+      def initialize(dictionary = nil)
         @dictionary = dictionary
+        @dictionary ||= ::Munou::Dictionary.new
       end
 
       def response(input)
