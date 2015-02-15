@@ -2,7 +2,7 @@ module Munou
   module Responders
     class RandomResponder < Base
       def response(input)
-        return dictionary.random
+        dictionary.sample
       end
     end
   end
