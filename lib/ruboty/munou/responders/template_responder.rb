@@ -1,3 +1,5 @@
+require 'natto'
+
 module Munou
   module Responders
     class TemplateResponder < Base
